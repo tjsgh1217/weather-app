@@ -25,7 +25,7 @@ export default class extends React.Component {
     } catch (error) {
       Alert.alert("Can't find you", "no location.");
     }
-  }; 
+  };  
 
   componentDidMount() {
     this.getLocation();
